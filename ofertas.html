@@ -5,51 +5,129 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ofertas dos vídeos — Vale o Click</title>
 <meta name="description" content="Os links dos produtos que aparecem nos vídeos do Vale o Click.">
+<meta name="theme-color" content="#e8590c">
 <style>
-  :root { --fundo:#fff8f0; --texto:#1f1a17; --suave:#6b625c; --destaque:#e8590c; --cartao:#ffffff; --borda:#f0e2d4; --verde:#128c4a; }
+  :root {
+    --fundo:#fff8f0; --fundo-topo:#ffefe0; --texto:#1f1a17; --suave:#6b625c; --destaque:#e8590c; --destaque-escuro:#c94a06;
+    --cartao:#ffffff; --borda:#f0e2d4; --verde:#128c4a; --verde-escuro:#0e7a40; --amarelo:#ffd400; --sombra:0 1px 2px rgba(60,30,10,.06), 0 6px 18px rgba(60,30,10,.06);
+    --foto:#ffffff; --esqueleto:#f3e7dc;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --fundo:#17120f; --fundo-topo:#231a14; --texto:#f5ede6; --suave:#b3a69b; --destaque:#ff7a2e; --destaque-escuro:#ff9152;
+      --cartao:#211a16; --borda:#352a22; --verde:#1fa95e; --verde-escuro:#24bd6a; --sombra:0 1px 2px rgba(0,0,0,.3);
+      --foto:#ffffff; --esqueleto:#2c231d;
+    }
+  }
+  :root[data-theme="dark"] {
+    --fundo:#17120f; --fundo-topo:#231a14; --texto:#f5ede6; --suave:#b3a69b; --destaque:#ff7a2e; --destaque-escuro:#ff9152;
+    --cartao:#211a16; --borda:#352a22; --verde:#1fa95e; --verde-escuro:#24bd6a; --sombra:0 1px 2px rgba(0,0,0,.3);
+    --foto:#ffffff; --esqueleto:#2c231d;
+  }
   * { box-sizing:border-box; }
-  body { margin:0; font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif; background:var(--fundo); color:var(--texto); line-height:1.45; }
-  main { max-width:720px; margin:0 auto; padding:28px 16px 48px; }
-  h1 { font-size:1.9rem; margin:0; color:var(--destaque); }
-  .sub { color:var(--suave); margin:2px 0 16px; }
-  .grupo { display:block; text-align:center; background:var(--verde); color:#fff; font-weight:700; text-decoration:none; padding:12px 16px; border-radius:12px; margin-bottom:16px; }
-  label { display:block; font-weight:600; margin-bottom:4px; }
-  input { width:100%; font:inherit; padding:12px 14px; border:1px solid var(--borda); border-radius:12px; background:var(--cartao); color:var(--texto); margin-bottom:18px; }
-  .oferta { display:grid; grid-template-columns:104px 1fr; gap:14px; background:var(--cartao); border:1px solid var(--borda); border-radius:14px; padding:12px; margin-bottom:12px; scroll-margin-top:12px; }
-  .oferta:target { border-color:var(--destaque); box-shadow:0 0 0 2px var(--destaque); }
-  .oferta img { width:104px; height:104px; object-fit:contain; border-radius:10px; background:#fff; }
-  .numero { color:var(--destaque); font-weight:800; font-size:.9rem; }
-  .titulo { margin:2px 0 6px; font-size:1rem; font-weight:600; overflow-wrap:anywhere; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
-  .preco { font-size:1.3rem; font-weight:800; }
+  body { margin:0; font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif; background:var(--fundo); color:var(--texto); line-height:1.45; -webkit-font-smoothing:antialiased; }
+  a { color:inherit; }
+
+  /* Topo */
+  header { background:linear-gradient(180deg, var(--fundo-topo), var(--fundo)); }
+  .topo { max-width:1080px; margin:0 auto; padding:22px 16px 18px; }
+  .marca { display:inline-flex; align-items:center; gap:8px; text-decoration:none; font-weight:800; color:var(--destaque); font-size:.95rem; letter-spacing:.2px; }
+  .marca span { display:grid; place-items:center; width:28px; height:28px; border-radius:8px; background:var(--destaque); color:#fff; font-size:.9rem; }
+  h1 { font-size:clamp(1.7rem, 5vw, 2.3rem); line-height:1.15; margin:14px 0 6px; letter-spacing:-.5px; }
+  .sub { color:var(--suave); margin:0 0 16px; max-width:52ch; }
   .grupo[hidden] { display:none; }
-  .de { color:var(--suave); text-decoration:line-through; font-size:.9rem; margin-left:6px; white-space:nowrap; }
-  .off { color:var(--verde); font-weight:700; font-size:.9rem; margin-left:6px; white-space:nowrap; }
-  .info { color:var(--suave); font-size:.82rem; margin:2px 0 10px; }
-  .comprar { display:inline-block; background:var(--destaque); color:#fff; font-weight:700; text-decoration:none; padding:9px 16px; border-radius:10px; }
-  .video { margin-left:12px; color:var(--destaque); font-size:.9rem; }
-  #aviso { color:var(--suave); text-align:center; padding:24px 0; }
-  footer { color:var(--suave); font-size:.85rem; margin-top:24px; text-align:center; }
+  .grupo { display:flex; align-items:center; gap:12px; background:var(--verde); color:#fff; text-decoration:none; padding:12px 14px; border-radius:14px; box-shadow:var(--sombra); max-width:520px; transition:background .15s; }
+  .grupo:hover { background:var(--verde-escuro); }
+  .grupo svg { flex:none; width:30px; height:30px; }
+  .grupo strong { display:block; font-size:1rem; }
+  .grupo small { opacity:.9; }
+
+  /* Busca fixa no topo ao rolar */
+  .barra { position:sticky; top:0; z-index:5; background:color-mix(in srgb, var(--fundo) 88%, transparent); backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); border-bottom:1px solid transparent; }
+  .barra.rolou { border-bottom-color:var(--borda); }
+  .barra-dentro { max-width:1080px; margin:0 auto; padding:10px 16px; }
+  .busca { position:relative; }
+  .busca svg { position:absolute; left:14px; top:50%; transform:translateY(-50%); width:18px; height:18px; color:var(--suave); pointer-events:none; }
+  .busca input { width:100%; font:inherit; font-size:1rem; padding:12px 14px 12px 42px; border:1px solid var(--borda); border-radius:12px; background:var(--cartao); color:var(--texto); outline:none; }
+  .busca input:focus { border-color:var(--destaque); box-shadow:0 0 0 3px color-mix(in srgb, var(--destaque) 20%, transparent); }
+  .contagem { color:var(--suave); font-size:.85rem; margin:8px 2px 0; min-height:1.2em; }
+
+  /* Grade de ofertas */
+  main { max-width:1080px; margin:0 auto; padding:8px 16px 40px; }
+  #lista { display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:12px; }
+  @media (min-width:640px) { #lista { grid-template-columns:repeat(3, minmax(0, 1fr)); gap:16px; } }
+  @media (min-width:920px) { #lista { grid-template-columns:repeat(4, minmax(0, 1fr)); } }
+  .oferta { display:flex; flex-direction:column; background:var(--cartao); border:1px solid var(--borda); border-radius:16px; overflow:hidden; box-shadow:var(--sombra); scroll-margin-top:90px; transition:transform .15s, box-shadow .15s; }
+  @media (hover:hover) { .oferta:hover { transform:translateY(-2px); box-shadow:0 2px 4px rgba(60,30,10,.08), 0 12px 28px rgba(60,30,10,.1); } }
+  .oferta:target { border-color:var(--destaque); box-shadow:0 0 0 3px var(--destaque); }
+  .foto { position:relative; aspect-ratio:1; background:var(--foto); overflow:hidden; }
+  .foto img { position:absolute; inset:0; width:100%; height:100%; object-fit:contain; padding:10px; }
+  .numero { position:absolute; top:8px; left:8px; background:var(--texto); color:var(--fundo); font-weight:800; font-size:.72rem; padding:3px 8px; border-radius:999px; letter-spacing:.3px; }
+  .off { position:absolute; top:8px; right:8px; background:#e53935; color:#fff; font-weight:800; font-size:.78rem; padding:3px 8px; border-radius:999px; }
+  .novo { position:absolute; bottom:8px; left:8px; background:var(--amarelo); color:#1f1a17; font-weight:800; font-size:.7rem; padding:3px 8px; border-radius:999px; }
+  .corpo { display:flex; flex-direction:column; gap:6px; padding:10px 12px 12px; flex:1; }
+  .loja { align-self:flex-start; font-size:.7rem; font-weight:700; padding:2px 8px; border-radius:6px; background:var(--borda); color:var(--texto); }
+  .loja.mercadolivre { background:#fff159; color:#2d3277; }
+  .loja.amazon { background:#232f3e; color:#fff; }
+  .loja.shopee { background:#ee4d2d; color:#fff; }
+  .titulo { margin:0; font-size:.9rem; font-weight:600; overflow-wrap:anywhere; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; min-height:2.6em; }
+  .precos { margin-top:auto; }
+  .apartir { display:block; color:var(--suave); font-size:.72rem; }
+  .preco { display:block; font-size:1.25rem; font-weight:800; letter-spacing:-.3px; white-space:nowrap; }
+  .de { display:block; color:var(--suave); text-decoration:line-through; font-size:.75rem; }
+  .dia { color:var(--suave); font-size:.72rem; }
+  .comprar { display:block; text-align:center; background:var(--destaque); color:#fff; font-weight:700; text-decoration:none; padding:10px 8px; border-radius:10px; font-size:.92rem; transition:background .15s; }
+  .comprar:hover { background:var(--destaque-escuro); }
+  .video { display:inline-flex; align-items:center; justify-content:center; gap:5px; color:var(--suave); font-size:.8rem; text-decoration:none; padding:2px 0; }
+  .video:hover { color:var(--destaque); }
+  .video svg { width:14px; height:14px; }
+
+  /* Carregando */
+  .esqueleto .foto, .esqueleto .linha { background:var(--esqueleto); animation:pulsa 1.2s ease-in-out infinite; }
+  .esqueleto .linha { height:12px; border-radius:6px; }
+  @keyframes pulsa { 50% { opacity:.55; } }
+  @media (prefers-reduced-motion:reduce) { .esqueleto .foto, .esqueleto .linha { animation:none; } .oferta { transition:none; } }
+
+  #aviso { color:var(--suave); text-align:center; padding:32px 12px; }
+  footer { max-width:720px; margin:0 auto; padding:0 16px 40px; color:var(--suave); font-size:.82rem; text-align:center; }
+  footer p { margin:6px 0; }
   footer a { color:var(--destaque); }
 </style>
 </head>
 <body>
+<header>
+  <div class="topo">
+    <a class="marca" href="./"><span>✓</span>Vale o Click</a>
+    <h1>Ofertas dos vídeos</h1>
+    <p class="sub">Viu um produto nos nossos vídeos? Procure pelo número da oferta e compre pelo link.</p>
+    <a class="grupo" id="grupo" href="#" hidden>
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3Zm0 23.6c-2 0-4-.6-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6Zm5.8-7.9c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.2 1.4 3.4c.2.2 2.4 3.6 5.7 5 2.1.9 2.9 1 4 .8.6-.1 1.9-.8 2.2-1.5.3-.8.3-1.4.2-1.5-.1-.2-.3-.2-.6-.4Z"/></svg>
+      <span><strong>Grupo de ofertas no WhatsApp</strong><small>Achadinhos novos todo dia, de graça</small></span>
+    </a>
+  </div>
+</header>
+
+<div class="barra" id="barra">
+  <div class="barra-dentro">
+    <label class="busca">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="busca" type="search" inputmode="search" placeholder="Número da oferta ou produto (ex.: 12)" autocomplete="off" aria-label="Número da oferta ou nome do produto">
+    </label>
+    <p class="contagem" id="contagem"></p>
+  </div>
+</div>
+
 <main>
-  <h1>Ofertas dos vídeos</h1>
-  <p class="sub">Viu um produto nos nossos vídeos? O link está aqui.</p>
-  <a class="grupo" id="grupo" href="#" hidden>📲 Receba ofertas todo dia no grupo do WhatsApp</a>
-
-  <label for="busca">Número da oferta ou nome do produto</label>
-  <input id="busca" type="search" inputmode="search" placeholder="Ex.: 12 ou parafusadeira" autocomplete="off">
-
-  <div id="lista"></div>
-  <p id="aviso">Carregando ofertas...</p>
-
-  <footer>
-    <p>Preços do dia em que a oferta foi publicada: podem mudar a qualquer momento. Confira na loja antes de comprar.</p>
-    <p>Alguns links são de afiliado: podemos receber uma comissão, sem custo extra pra você. Venda de bebidas alcoólicas proibida para menores de 18 anos.</p>
-    <p><a href="./">Início</a> · <a href="privacidade.html">Privacidade</a> · <a href="termos.html">Termos</a></p>
-  </footer>
+  <div id="lista" aria-live="polite"></div>
+  <p id="aviso" hidden></p>
 </main>
+
+<footer>
+  <p>Preços do dia em que a oferta foi publicada: podem mudar a qualquer momento. Confira na loja antes de comprar.</p>
+  <p>Alguns links são de afiliado: podemos receber uma comissão, sem custo extra pra você. Venda de bebidas alcoólicas proibida para menores de 18 anos.</p>
+  <p><a href="./">Início</a> · <a href="privacidade.html">Privacidade</a> · <a href="termos.html">Termos</a></p>
+</footer>
+
 <script>
   const LOJAS = { mercadolivre: 'Mercado Livre', amazon: 'Amazon', shopee: 'Shopee' };
   const reais = (v) => 'R$ ' + Number(v).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
@@ -58,6 +136,7 @@
   const lista = document.getElementById('lista');
   const aviso = document.getElementById('aviso');
   const busca = document.getElementById('busca');
+  const contagem = document.getElementById('contagem');
   let ofertas = [];
 
   function el(tag, classe, texto) {
@@ -67,22 +146,33 @@
     return e;
   }
 
+  const ICONE_VIDEO = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>';
+
   function cartao(o) {
     const c = el('article', 'oferta');
     c.id = String(o.numero);
+
+    const foto = el('div', 'foto');
     const img = el('img');
-    img.alt = '';
+    img.alt = o.titulo;
     img.loading = 'lazy';
+    img.decoding = 'async';
     img.referrerPolicy = 'no-referrer';
     if (seguro(o.imagem)) img.src = o.imagem;
-    const corpo = el('div');
-    corpo.append(el('div', 'numero', 'OFERTA ' + o.numero), el('p', 'titulo', o.titulo));
-    const preco = el('div');
-    preco.append(el('span', 'preco', (o.aPartirDe ? 'a partir de ' : '') + reais(o.preco)));
-    if (o.precoAntes) preco.append(el('span', 'de', reais(o.precoAntes)));
-    if (o.desconto) preco.append(el('span', 'off', '-' + o.desconto + '%'));
+    foto.append(img, el('span', 'numero', 'OFERTA ' + o.numero));
+    if (o.desconto) foto.append(el('span', 'off', '-' + o.desconto + '%'));
+    if (Date.now() - o.em < 24 * 60 * 60 * 1000) foto.append(el('span', 'novo', 'NOVO'));
+
+    const corpo = el('div', 'corpo');
+    corpo.append(el('span', 'loja ' + o.loja, LOJAS[o.loja] ?? o.loja), el('p', 'titulo', o.titulo));
+    const precos = el('div', 'precos');
+    if (o.precoAntes) precos.append(el('span', 'de', reais(o.precoAntes)));
+    if (o.aPartirDe) precos.append(el('span', 'apartir', 'a partir de'));
+    precos.append(el('span', 'preco', reais(o.preco)));
     const dia = new Date(o.em).toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit' });
-    corpo.append(preco, el('p', 'info', (LOJAS[o.loja] ?? o.loja) + ' · preço de ' + dia));
+    precos.append(el('div', 'dia', 'preço de ' + dia));
+    corpo.append(precos);
+
     if (seguro(o.link)) {
       const a = el('a', 'comprar', 'Ver na loja');
       a.href = o.link;
@@ -91,26 +181,46 @@
       corpo.append(a);
     }
     if (seguro(o.youtube)) {
-      const v = el('a', 'video', 'Ver vídeo');
+      const v = el('a', 'video');
+      v.innerHTML = ICONE_VIDEO;
+      v.append('Ver o vídeo');
       v.href = o.youtube;
       v.rel = 'noopener';
       v.target = '_blank';
       corpo.append(v);
     }
-    c.append(img, corpo);
+    c.append(foto, corpo);
     return c;
   }
 
+  function esqueletos(n) {
+    return Array.from({ length: n }, () => {
+      const c = el('div', 'oferta esqueleto');
+      const corpo = el('div', 'corpo');
+      corpo.append(el('div', 'linha'), el('div', 'linha'), el('div', 'linha'));
+      corpo.lastChild.style.width = '60%';
+      c.append(el('div', 'foto'), corpo);
+      return c;
+    });
+  }
+
   function mostrar() {
-    const q = normalizar(busca.value.trim());
+    const q = normalizar(busca.value.trim().replace(/^#/, ''));
     const achadas = !q ? ofertas : ofertas.filter((o) =>
       (/^\d+$/.test(q) ? String(o.numero) === q : normalizar(o.titulo).includes(q)));
     lista.replaceChildren(...achadas.map(cartao));
     aviso.hidden = achadas.length > 0;
     aviso.textContent = q ? 'Não achei essa oferta. As mais antigas saem da lista.' : 'Ainda não tem ofertas por aqui.';
+    contagem.textContent = q
+      ? `${achadas.length} ${achadas.length === 1 ? 'resultado' : 'resultados'}`
+      : `${ofertas.length} ofertas, da mais nova para a mais antiga`;
   }
 
+  lista.replaceChildren(...esqueletos(8));
   busca.addEventListener('input', mostrar);
+  const barra = document.getElementById('barra');
+  addEventListener('scroll', () => barra.classList.toggle('rolou', barra.getBoundingClientRect().top <= 0 && scrollY > 0), { passive: true });
+
   fetch('ofertas.json?t=' + Math.floor(Date.now() / 60000))
     .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then((d) => {
@@ -121,9 +231,13 @@
         g.hidden = false;
       }
       mostrar();
-      if (location.hash) document.getElementById(location.hash.slice(1))?.scrollIntoView();
+      if (location.hash) document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView();
     })
-    .catch(() => { aviso.textContent = 'Não consegui carregar as ofertas. Tente de novo em instantes.'; });
+    .catch(() => {
+      lista.replaceChildren();
+      aviso.hidden = false;
+      aviso.textContent = 'Não consegui carregar as ofertas. Tente de novo em instantes.';
+    });
 </script>
 </body>
 </html>

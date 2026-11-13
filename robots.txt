@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /auditoria/
+
+Sitemap: https://rlsdmm.github.io/sitemap.xml

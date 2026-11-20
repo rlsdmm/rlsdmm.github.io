@@ -1,7 +1,20 @@
 {
- "atualizadoEm": 1795192230404,
+ "atualizadoEm": 1795213841236,
  "grupo": "https://chat.whatsapp.com/Bn8Uh59Grik5MwvQ0dSTJq",
  "ofertas": [
+  {
+   "numero": 42,
+   "titulo": "Fritadeira Elétrica sem oleo Forno Oven Airfryer 12L digital receita programada 2 bandejas espeto giratório 1700W Electrolux EAF90 Grafite 127v por Rita Lobo",
+   "loja": "amazon",
+   "imagem": "https://m.media-amazon.com/images/I/5183mlQX54L._AC_SL1000_.jpg",
+   "link": "https://www.amazon.com.br/dp/B0BYK9KP3W?tag=valeoclick0e-20",
+   "preco": 540.81,
+   "aPartirDe": false,
+   "precoAntes": 1299,
+   "desconto": 58,
+   "youtube": "https://youtube.com/shorts/2aZ1gLhhVq4",
+   "em": 1795213840790
+  },
   {
    "numero": 41,
    "titulo": "Balança Digital Alta Precisão até 10kg Cozinha Dieta Alimentos Super Precisa Nutrição Confeitaria",
@@ -508,19 +521,6 @@
    "desconto": 59,
    "youtube": "https://youtube.com/shorts/PsGZIqKZWyY",
    "em": 1794002579507
-  },
-  {
-   "numero": 2,
-   "titulo": "10m Cascata 400 Led 8 Funções Decoração Natal 110v 220v Conexão Macho Branco Frio Quente Pisca Pisca Enfeites de Natal",
-   "loja": "shopee",
-   "imagem": "https://cf.shopee.com.br/file/br-11134207-820mg-mtgwtlf6mjurf5",
-   "link": "https://s.shopee.com.br/2Vt54pFRCH",
-   "preco": 58.99,
-   "aPartirDe": true,
-   "precoAntes": null,
-   "desconto": null,
-   "youtube": "https://youtube.com/shorts/HZ14f7aeTwo",
-   "em": 1793981634508
   }
  ]
 }

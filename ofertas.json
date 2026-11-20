@@ -1,7 +1,20 @@
 {
- "atualizadoEm": 1795134636693,
+ "atualizadoEm": 1795192230404,
  "grupo": "https://chat.whatsapp.com/Bn8Uh59Grik5MwvQ0dSTJq",
  "ofertas": [
+  {
+   "numero": 41,
+   "titulo": "Balança Digital Alta Precisão até 10kg Cozinha Dieta Alimentos Super Precisa Nutrição Confeitaria",
+   "loja": "shopee",
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-81ztd-ml2ldsfn9r0g2a",
+   "link": "https://s.shopee.com.br/9AQJkZNn0E",
+   "preco": 16.9,
+   "aPartirDe": false,
+   "precoAntes": null,
+   "desconto": null,
+   "youtube": "https://youtube.com/shorts/H588gAt5A2g",
+   "em": 1795192229933
+  },
   {
    "numero": 40,
    "titulo": "Saia para Árvore de Natal 40cm 60cm 90cm Tapete Base Decorativa Vermelha Papai Noel Decoração Natalina",
@@ -508,19 +521,6 @@
    "desconto": null,
    "youtube": "https://youtube.com/shorts/HZ14f7aeTwo",
    "em": 1793981634508
-  },
-  {
-   "numero": 1,
-   "titulo": "Cadeira Gamer Ergonômica - Escritório, Casa e Universitário com Reclinação e Altura Ajustável-F19",
-   "loja": "shopee",
-   "imagem": "https://cf.shopee.com.br/file/br-11134207-820m8-mu7744w88r9c6f",
-   "link": "https://s.shopee.com.br/1Lh7gfl1cz",
-   "preco": 402.95,
-   "aPartirDe": true,
-   "precoAntes": null,
-   "desconto": null,
-   "youtube": "https://youtube.com/shorts/mzkW6Mgts4M",
-   "em": 1793967256320
   }
  ]
 }

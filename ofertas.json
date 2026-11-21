@@ -1,7 +1,20 @@
 {
- "atualizadoEm": 1795213841236,
+ "atualizadoEm": 1795221041182,
  "grupo": "https://chat.whatsapp.com/Bn8Uh59Grik5MwvQ0dSTJq",
  "ofertas": [
+  {
+   "numero": 43,
+   "titulo": "Marvel's Spider-Man 2 PS5",
+   "loja": "amazon",
+   "imagem": "https://m.media-amazon.com/images/I/81RfcW3Ml-L._AC_SL1500_.jpg",
+   "link": "https://www.amazon.com.br/dp/B0CHZ18WJW?tag=valeoclick0e-20",
+   "preco": 159.9,
+   "aPartirDe": false,
+   "precoAntes": 399.9,
+   "desconto": 60,
+   "youtube": "https://youtube.com/shorts/fMpZ-j7xn_Q",
+   "em": 1795221040764
+  },
   {
    "numero": 42,
    "titulo": "Fritadeira Elétrica sem oleo Forno Oven Airfryer 12L digital receita programada 2 bandejas espeto giratório 1700W Electrolux EAF90 Grafite 127v por Rita Lobo",
@@ -508,19 +521,6 @@
    "desconto": 52,
    "youtube": "https://youtube.com/shorts/k9uLVV_3Qrg",
    "em": 1794003239855
-  },
-  {
-   "numero": 3,
-   "titulo": "Kit: 2 Creatina Pote 300g 100% Pura Soldiers Nutrition Treino Performance Fortalecimento",
-   "loja": "mercadolivre",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_728947-MLA99959030979_112025-F.jpg",
-   "link": "https://meli.la/1w2R7L5",
-   "preco": 76.53,
-   "aPartirDe": false,
-   "precoAntes": 189.8,
-   "desconto": 59,
-   "youtube": "https://youtube.com/shorts/PsGZIqKZWyY",
-   "em": 1794002579507
   }
  ]
 }

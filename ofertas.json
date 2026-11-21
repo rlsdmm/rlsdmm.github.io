@@ -1,7 +1,20 @@
 {
- "atualizadoEm": 1795221041182,
+ "atualizadoEm": 1795278628986,
  "grupo": "https://chat.whatsapp.com/Bn8Uh59Grik5MwvQ0dSTJq",
  "ofertas": [
+  {
+   "numero": 44,
+   "titulo": "Barbie Casa dos Sonhos, Casa de Bonecas, 3+ Anos",
+   "loja": "amazon",
+   "imagem": "https://m.media-amazon.com/images/I/61VhNgOsi8L._AC_SL1000_.jpg",
+   "link": "https://www.amazon.com.br/dp/B0H1T7241Z?tag=valeoclick0e-20",
+   "preco": 749.98,
+   "aPartirDe": false,
+   "precoAntes": 1699.99,
+   "desconto": 55,
+   "youtube": "https://youtube.com/shorts/wN08U06-45Q",
+   "em": 1795278628541
+  },
   {
    "numero": 43,
    "titulo": "Marvel's Spider-Man 2 PS5",
@@ -508,19 +521,6 @@
    "desconto": 52,
    "youtube": "https://youtube.com/shorts/W3dL-P3fdDs",
    "em": 1794052964185
-  },
-  {
-   "numero": 4,
-   "titulo": "Lixeira Automática 12 Litros Com Sensor Infravermelho Tampa Para Cozinha Banheiro Escritório Quarto",
-   "loja": "shopee",
-   "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rdwa-mccb5id6es7v2d",
-   "link": "https://s.shopee.com.br/gRQtSiPtn",
-   "preco": 56.98,
-   "aPartirDe": false,
-   "precoAntes": null,
-   "desconto": 52,
-   "youtube": "https://youtube.com/shorts/k9uLVV_3Qrg",
-   "em": 1794003239855
   }
  ]
 }

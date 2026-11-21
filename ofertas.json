@@ -1,7 +1,20 @@
 {
- "atualizadoEm": 1795278628986,
+ "atualizadoEm": 1795300240672,
  "grupo": "https://chat.whatsapp.com/Bn8Uh59Grik5MwvQ0dSTJq",
  "ofertas": [
+  {
+   "numero": 45,
+   "titulo": "Estrutura De Cama De Metal, Solteiro, Com Espaço De Armazena Cor Preto Hot Wheels",
+   "loja": "mercadolivre",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_758207-MLA106327918709_012026-F.jpg",
+   "link": "https://meli.la/198VjBk",
+   "preco": 219.99,
+   "aPartirDe": false,
+   "precoAntes": 499.99,
+   "desconto": 56,
+   "youtube": "https://youtube.com/shorts/vRoGnNQMaZc",
+   "em": 1795300240035
+  },
   {
    "numero": 44,
    "titulo": "Barbie Casa dos Sonhos, Casa de Bonecas, 3+ Anos",
@@ -508,19 +521,6 @@
    "desconto": null,
    "youtube": "https://youtube.com/shorts/A82C3DcH-y0",
    "em": 1794090630607
-  },
-  {
-   "numero": 5,
-   "titulo": "Celular Samsung Galaxy A17 Com Ia, 128gb, 4gb Ram, Câm De 50mp, Tela De 6.7\", Nfc, Ip54 - Preto",
-   "loja": "mercadolivre",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_868127-MLA118013296557_092026-F.jpg",
-   "link": "https://meli.la/33RXpFr",
-   "preco": 813.09,
-   "aPartirDe": false,
-   "precoAntes": 1699,
-   "desconto": 52,
-   "youtube": "https://youtube.com/shorts/W3dL-P3fdDs",
-   "em": 1794052964185
   }
  ]
 }

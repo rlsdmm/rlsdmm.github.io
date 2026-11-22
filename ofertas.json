@@ -1,7 +1,20 @@
 {
- "atualizadoEm": 1795365027114,
+ "atualizadoEm": 1795386630555,
  "grupo": "https://chat.whatsapp.com/Bn8Uh59Grik5MwvQ0dSTJq",
  "ofertas": [
+  {
+   "numero": 48,
+   "titulo": "Perfume Masculino Premium Midnight Blue 100ml Original Árabe",
+   "loja": "mercadolivre",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_639989-MLB106379373096_022026-F.jpg",
+   "link": "https://meli.la/1ntd2j8",
+   "preco": 70,
+   "aPartirDe": false,
+   "precoAntes": null,
+   "desconto": null,
+   "youtube": "https://youtube.com/shorts/5hPCervOKIw",
+   "em": 1795386630130
+  },
   {
    "numero": 47,
    "titulo": "Ração Seca Fórmula Natural Gatos Castrados Adultos Salmão 10 Kg",
@@ -508,19 +521,6 @@
    "desconto": null,
    "youtube": "https://youtube.com/shorts/vSShDAVXnM0",
    "em": 1794177025980
-  },
-  {
-   "numero": 8,
-   "titulo": "Aperto Do Acelerador Com Indicador De Energia De Bloqueio De Chave 36V Para Scooter Elétrica Bicicletas Elétricas E Moto",
-   "loja": "shopee",
-   "imagem": "https://cf.shopee.com.br/file/sg-11134201-82258-mhpw19khc7412e",
-   "link": "https://s.shopee.com.br/5AtsVln880",
-   "preco": 50.99,
-   "aPartirDe": false,
-   "precoAntes": null,
-   "desconto": null,
-   "youtube": "https://youtube.com/shorts/ziCUlKOTZEQ",
-   "em": 1794155441493
   }
  ]
 }

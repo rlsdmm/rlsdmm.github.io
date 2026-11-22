@@ -1,7 +1,20 @@
 {
- "atualizadoEm": 1795300240672,
+ "atualizadoEm": 1795307437638,
  "grupo": "https://chat.whatsapp.com/Bn8Uh59Grik5MwvQ0dSTJq",
  "ofertas": [
+  {
+   "numero": 46,
+   "titulo": "Fone de ouvido com fio com microfone cobre driver fone de ouvido esportivo baixo estéreo QKZ",
+   "loja": "shopee",
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-m22tzz0333dwae",
+   "link": "https://s.shopee.com.br/1W0voGQyzY",
+   "preco": 21.88,
+   "aPartirDe": true,
+   "precoAntes": null,
+   "desconto": null,
+   "youtube": "https://youtube.com/shorts/_E3TS8UoOcU",
+   "em": 1795307437191
+  },
   {
    "numero": 45,
    "titulo": "Estrutura De Cama De Metal, Solteiro, Com Espaço De Armazena Cor Preto Hot Wheels",
@@ -508,19 +521,6 @@
    "desconto": 48,
    "youtube": "https://youtube.com/shorts/EKKGf0XzMLo",
    "em": 1794144642726
-  },
-  {
-   "numero": 6,
-   "titulo": "Mini Compressor De Ar Portátil Recarregável Digital USB Calibrador De Pneus Carro Moto Bicicleta Infláveis Automático",
-   "loja": "shopee",
-   "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rd5k-m7r1faf4n6ivbc",
-   "link": "https://s.shopee.com.br/4LKjvMTWtm",
-   "preco": 54.22,
-   "aPartirDe": true,
-   "precoAntes": null,
-   "desconto": null,
-   "youtube": "https://youtube.com/shorts/A82C3DcH-y0",
-   "em": 1794090630607
   }
  ]
 }

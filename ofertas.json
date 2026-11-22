@@ -1,7 +1,20 @@
 {
- "atualizadoEm": 1795307437638,
+ "atualizadoEm": 1795365027114,
  "grupo": "https://chat.whatsapp.com/Bn8Uh59Grik5MwvQ0dSTJq",
  "ofertas": [
+  {
+   "numero": 47,
+   "titulo": "Ração Seca Fórmula Natural Gatos Castrados Adultos Salmão 10 Kg",
+   "loja": "mercadolivre",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_948000-MLA101823824285_122025-F.jpg",
+   "link": "https://meli.la/1QpzrmN",
+   "preco": 270.13,
+   "aPartirDe": false,
+   "precoAntes": 593,
+   "desconto": 54,
+   "youtube": "https://youtube.com/shorts/L1xkWhVYF3Y",
+   "em": 1795365026677
+  },
   {
    "numero": 46,
    "titulo": "Fone de ouvido com fio com microfone cobre driver fone de ouvido esportivo baixo estéreo QKZ",
@@ -508,19 +521,6 @@
    "desconto": null,
    "youtube": "https://youtube.com/shorts/ziCUlKOTZEQ",
    "em": 1794155441493
-  },
-  {
-   "numero": 7,
-   "titulo": "Principia Kit Essencial Gl-03 + Ch + Vc + Ps Sensível Dia/noite",
-   "loja": "mercadolivre",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_792011-MLA96077651979_102025-F.jpg",
-   "link": "https://meli.la/1piQBBc",
-   "preco": 109.72,
-   "aPartirDe": false,
-   "precoAntes": 211,
-   "desconto": 48,
-   "youtube": "https://youtube.com/shorts/EKKGf0XzMLo",
-   "em": 1794144642726
   }
  ]
 }

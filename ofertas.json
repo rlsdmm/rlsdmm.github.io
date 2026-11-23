@@ -1,7 +1,20 @@
 {
- "atualizadoEm": 1795451454565,
+ "atualizadoEm": 1795473020127,
  "grupo": "https://chat.whatsapp.com/Bn8Uh59Grik5MwvQ0dSTJq",
  "ofertas": [
+  {
+   "numero": 51,
+   "titulo": "Triciclo Infantil Elétrico Drift 6,5“-8“ 350W LED Bluetooth 3 Velocidades Kart Criança | Kit Proteção |Com amortecedores",
+   "loja": "shopee",
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820l5-mq5lso3z280241",
+   "link": "https://s.shopee.com.br/1BO9GcvmRm",
+   "preco": 899,
+   "aPartirDe": true,
+   "precoAntes": null,
+   "desconto": null,
+   "youtube": "https://youtube.com/shorts/hih3C92B3hs",
+   "em": 1795473019615
+  },
   {
    "numero": 50,
    "titulo": "Celular Samsung Galaxy A37 5g 128gb, 6gb Ram, Câmera 50mp Lavanda",
@@ -508,19 +521,6 @@
    "desconto": null,
    "youtube": "https://youtube.com/shorts/d9limE5u-2Q",
    "em": 1794263443793
-  },
-  {
-   "numero": 11,
-   "titulo": "Strobo Pisca Pisca Cordão Natal 1000 Leds 90m Prova D'Água Bivolt Branco Quente 200 Flash Branco Quente Decoração Enfeite Natal LuvinCo",
-   "loja": "mercadolivre",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_812313-MLA117375161698_102026-F.jpg",
-   "link": "https://meli.la/33CP9T6",
-   "preco": 249.9,
-   "aPartirDe": false,
-   "precoAntes": null,
-   "desconto": null,
-   "youtube": "https://youtube.com/shorts/ldp2y-Hj12Y",
-   "em": 1794241839838
   }
  ]
 }

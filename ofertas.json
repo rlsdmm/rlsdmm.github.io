@@ -1,7 +1,20 @@
 {
- "atualizadoEm": 1795393839869,
+ "atualizadoEm": 1795451454565,
  "grupo": "https://chat.whatsapp.com/Bn8Uh59Grik5MwvQ0dSTJq",
  "ofertas": [
+  {
+   "numero": 50,
+   "titulo": "Celular Samsung Galaxy A37 5g 128gb, 6gb Ram, Câmera 50mp Lavanda",
+   "loja": "mercadolivre",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_646657-MLA109665736110_042026-F.jpg",
+   "link": "https://meli.la/1NEXFzb",
+   "preco": 1599,
+   "aPartirDe": false,
+   "precoAntes": 3499,
+   "desconto": 54,
+   "youtube": "https://youtube.com/shorts/NasuNsrjZeo",
+   "em": 1795451454114
+  },
   {
    "numero": 49,
    "titulo": "Tênis Nike Air Max Alpha Trainer 6 Masculino",
@@ -508,19 +521,6 @@
    "desconto": null,
    "youtube": "https://youtube.com/shorts/ldp2y-Hj12Y",
    "em": 1794241839838
-  },
-  {
-   "numero": 10,
-   "titulo": "Camiseta Light T-shirt Insider Masculino",
-   "loja": "mercadolivre",
-   "imagem": "https://http2.mlstatic.com/D_Q_NP_2X_943072-MLB119113754480_112026-AB-camiseta-light-t-shirt-insider-masculino.jpg",
-   "link": "https://meli.la/2kDEseA",
-   "preco": 54,
-   "aPartirDe": false,
-   "precoAntes": null,
-   "desconto": null,
-   "youtube": "https://youtube.com/shorts/Zdz3ehcYWx8",
-   "em": 1794231038062
   }
  ]
 }

@@ -1,7 +1,20 @@
 {
- "atualizadoEm": 1795386630555,
+ "atualizadoEm": 1795393839869,
  "grupo": "https://chat.whatsapp.com/Bn8Uh59Grik5MwvQ0dSTJq",
  "ofertas": [
+  {
+   "numero": 49,
+   "titulo": "Tênis Nike Air Max Alpha Trainer 6 Masculino",
+   "loja": "mercadolivre",
+   "imagem": "https://http2.mlstatic.com/D_Q_NP_2X_767770-MLB100876249417_122025-AB-tnis-nike-air-max-alpha-trainer-6-masculino.jpg",
+   "link": "https://meli.la/1cW3C5o",
+   "preco": 417.99,
+   "aPartirDe": false,
+   "precoAntes": 799.99,
+   "desconto": 47,
+   "youtube": "https://youtube.com/shorts/OHSjD-eE-A8",
+   "em": 1795393839444
+  },
   {
    "numero": 48,
    "titulo": "Perfume Masculino Premium Midnight Blue 100ml Original Árabe",
@@ -508,19 +521,6 @@
    "desconto": null,
    "youtube": "https://youtube.com/shorts/Zdz3ehcYWx8",
    "em": 1794231038062
-  },
-  {
-   "numero": 9,
-   "titulo": "Impressora Térmica Não Fiscal 80mm Usb Rede Com Guilhotina Preto 127/220v",
-   "loja": "mercadolivre",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_847076-MLB90410865359_082025-F.jpg",
-   "link": "https://meli.la/2x8kwZv",
-   "preco": 222.3,
-   "aPartirDe": false,
-   "precoAntes": null,
-   "desconto": null,
-   "youtube": "https://youtube.com/shorts/vSShDAVXnM0",
-   "em": 1794177025980
   }
  ]
 }

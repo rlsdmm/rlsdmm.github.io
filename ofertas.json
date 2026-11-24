@@ -1,7 +1,20 @@
 {
- "atualizadoEm": 1795480226190,
+ "atualizadoEm": 1795537844929,
  "grupo": "https://chat.whatsapp.com/Bn8Uh59Grik5MwvQ0dSTJq",
  "ofertas": [
+  {
+   "numero": 53,
+   "titulo": "Samsung Galaxy Watch8 Smartwatch 40mm BT, Galaxy AI - Grafite",
+   "loja": "mercadolivre",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_783024-MLA110125232386_042026-F.jpg",
+   "link": "https://meli.la/1hQXEQX",
+   "preco": 1079,
+   "aPartirDe": false,
+   "precoAntes": 2707,
+   "desconto": 60,
+   "youtube": "https://youtube.com/shorts/gk0Tf15ckcg",
+   "em": 1795537844492
+  },
   {
    "numero": 52,
    "titulo": "Kit 6 Pares Meias Zhamaro Algodão Cano Médio Alto Atoalhada",
@@ -508,19 +521,6 @@
    "desconto": null,
    "youtube": "https://youtube.com/shorts/C4zHDdHy2AY",
    "em": 1794328239588
-  },
-  {
-   "numero": 13,
-   "titulo": "Plus do Brasil Cabo Usb Turbo Tipo C Para Samsung Galaxy S26 S25 S24 Plus S23 Fe S22 S21 S20 A16 A15 A22 A13 A14 A55 A53 A54 A06 A05s A20 A21 Apple iPhone 18 17 16 15 Carplay Android Auto BR",
-   "loja": "mercadolivre",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_658550-MLA110156406920_042026-F.jpg",
-   "link": "https://meli.la/22NSyGH",
-   "preco": 19.09,
-   "aPartirDe": false,
-   "precoAntes": null,
-   "desconto": null,
-   "youtube": "https://youtube.com/shorts/uYTX3S5gW4g",
-   "em": 1794317433918
   }
  ]
 }

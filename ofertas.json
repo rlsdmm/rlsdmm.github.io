@@ -1,7 +1,20 @@
 {
- "atualizadoEm": 1795537844929,
+ "atualizadoEm": 1795559460196,
  "grupo": "https://chat.whatsapp.com/Bn8Uh59Grik5MwvQ0dSTJq",
  "ofertas": [
+  {
+   "numero": 54,
+   "titulo": "Árvore De Natal Pinheiro Canadense Luxo 2,10m 1200 Galhos Tradicional Verde Imperial Premium Grande Cheia LuvinCo",
+   "loja": "mercadolivre",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_669206-MLA120376020843_102026-F.jpg",
+   "link": "https://meli.la/18tXnS1",
+   "preco": 229.99,
+   "aPartirDe": false,
+   "precoAntes": 562.38,
+   "desconto": 59,
+   "youtube": "https://youtube.com/shorts/O0pOMNIyH50",
+   "em": 1795559459688
+  },
   {
    "numero": 53,
    "titulo": "Samsung Galaxy Watch8 Smartwatch 40mm BT, Galaxy AI - Grafite",
@@ -508,19 +521,6 @@
    "desconto": null,
    "youtube": "https://youtube.com/shorts/biYJ1VOJ6zo",
    "em": 1794349846808
-  },
-  {
-   "numero": 14,
-   "titulo": "Mesinha Infantil Com 2 Cadeiras Educativa Alfabeto Completo Atacarejo Kids",
-   "loja": "mercadolivre",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_675755-MLA116320253672_092026-F.jpg",
-   "link": "https://meli.la/12jiosb",
-   "preco": 137.7,
-   "aPartirDe": false,
-   "precoAntes": null,
-   "desconto": null,
-   "youtube": "https://youtube.com/shorts/C4zHDdHy2AY",
-   "em": 1794328239588
   }
  ]
 }

@@ -1,7 +1,20 @@
 {
- "atualizadoEm": 1795566625201,
+ "atualizadoEm": 1795624230671,
  "grupo": "https://chat.whatsapp.com/Bn8Uh59Grik5MwvQ0dSTJq",
  "ofertas": [
+  {
+   "numero": 56,
+   "titulo": "KIT de Utensílios Para Cozinha em Silicone e Bambu 12 Peças",
+   "loja": "shopee",
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-m0vlofzgnb8gc9",
+   "link": "https://s.shopee.com.br/5LDl1METvC",
+   "preco": 28.99,
+   "aPartirDe": true,
+   "precoAntes": null,
+   "desconto": null,
+   "youtube": "https://youtube.com/shorts/GXROrwqTlig",
+   "em": 1795624230101
+  },
   {
    "numero": 55,
    "titulo": "Smartphone Motorola Moto G06 - 64GB 4GB RAM + 8GB Ram Boost, Camera 50MP com AI, Bateria de 5200 mAh e Tela 6.9\" - Bege",
@@ -508,19 +521,6 @@
    "desconto": 45,
    "youtube": "https://youtube.com/shorts/HgT3rKInVsU",
    "em": 1794414626264
-  },
-  {
-   "numero": 16,
-   "titulo": "Percarbonato De Sódio 100% Puro Tira Manchas Dificeis Roupas Brancas e Coloridas AlvejaPro Oficial",
-   "loja": "shopee",
-   "imagem": "https://cf.shopee.com.br/file/br-11134207-820l9-mszm68d99ukmd3",
-   "link": "https://s.shopee.com.br/8VAQCDjD0s",
-   "preco": 16.9,
-   "aPartirDe": false,
-   "precoAntes": null,
-   "desconto": null,
-   "youtube": "https://youtube.com/shorts/0M-Vuc7Zp8w",
-   "em": 1794403817274
   }
  ]
 }

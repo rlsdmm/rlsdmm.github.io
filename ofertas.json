@@ -1,7 +1,20 @@
 {
- "atualizadoEm": 1795624230671,
+ "atualizadoEm": 1795645826134,
  "grupo": "https://chat.whatsapp.com/Bn8Uh59Grik5MwvQ0dSTJq",
  "ofertas": [
+  {
+   "numero": 57,
+   "titulo": "Relógio Smartwatch Redmi Watch 5 Active Lite Xiaomi Preto Prateado",
+   "loja": "mercadolivre",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_761997-MLA111392533251_052026-F.jpg",
+   "link": "https://meli.la/1i4bxEt",
+   "preco": 339.14,
+   "aPartirDe": false,
+   "precoAntes": 699.99,
+   "desconto": 51,
+   "youtube": "https://youtube.com/shorts/3w3YAKGnOek",
+   "em": 1795645825700
+  },
   {
    "numero": 56,
    "titulo": "KIT de Utensílios Para Cozinha em Silicone e Bambu 12 Peças",
@@ -508,19 +521,6 @@
    "desconto": 47,
    "youtube": "https://youtube.com/shorts/KynRA1bXlx0",
    "em": 1794436231937
-  },
-  {
-   "numero": 17,
-   "titulo": "Creatina Growth Supplements Monohidratada em pó Sem sabor x 500g",
-   "loja": "mercadolivre",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_870227-MLA116260093488_092026-F.jpg",
-   "link": "https://meli.la/24sf9tn",
-   "preco": 56.9,
-   "aPartirDe": false,
-   "precoAntes": 104.9,
-   "desconto": 45,
-   "youtube": "https://youtube.com/shorts/HgT3rKInVsU",
-   "em": 1794414626264
   }
  ]
 }

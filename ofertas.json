@@ -1,7 +1,20 @@
 {
- "atualizadoEm": 1795559460196,
+ "atualizadoEm": 1795566625201,
  "grupo": "https://chat.whatsapp.com/Bn8Uh59Grik5MwvQ0dSTJq",
  "ofertas": [
+  {
+   "numero": 55,
+   "titulo": "Smartphone Motorola Moto G06 - 64GB 4GB RAM + 8GB Ram Boost, Camera 50MP com AI, Bateria de 5200 mAh e Tela 6.9\" - Bege",
+   "loja": "mercadolivre",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_605303-MLA116320601976_092026-F.jpg",
+   "link": "https://meli.la/1oeAJ2Q",
+   "preco": 599,
+   "aPartirDe": false,
+   "precoAntes": 1299,
+   "desconto": 53,
+   "youtube": "https://youtube.com/shorts/eTC6woZmll8",
+   "em": 1795566624074
+  },
   {
    "numero": 54,
    "titulo": "Árvore De Natal Pinheiro Canadense Luxo 2,10m 1200 Galhos Tradicional Verde Imperial Premium Grande Cheia LuvinCo",
@@ -508,19 +521,6 @@
    "desconto": null,
    "youtube": "https://youtube.com/shorts/0M-Vuc7Zp8w",
    "em": 1794403817274
-  },
-  {
-   "numero": 15,
-   "titulo": "Kit 4 Cuecas Boxer Lupo Algodão Confortável Box Original",
-   "loja": "mercadolivre",
-   "imagem": "https://http2.mlstatic.com/D_Q_NP_2X_812578-MLB82638744739_022025-AB-kit-4-cuecas-boxer-lupo-algodo-confortavel-box-original.jpg",
-   "link": "https://meli.la/25DiBwp",
-   "preco": 59.99,
-   "aPartirDe": false,
-   "precoAntes": null,
-   "desconto": null,
-   "youtube": "https://youtube.com/shorts/biYJ1VOJ6zo",
-   "em": 1794349846808
   }
  ]
 }

@@ -1,7 +1,20 @@
 {
- "atualizadoEm": 1795645826134,
+ "atualizadoEm": 1795653023677,
  "grupo": "https://chat.whatsapp.com/Bn8Uh59Grik5MwvQ0dSTJq",
  "ofertas": [
+  {
+   "numero": 58,
+   "titulo": "iPhone 16e (128 GB) - Preto - Distribuidor Autorizado",
+   "loja": "mercadolivre",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_961264-MLA95713213402_102025-F.jpg",
+   "link": "https://meli.la/1a4kWNE",
+   "preco": 3098,
+   "aPartirDe": false,
+   "precoAntes": 5799,
+   "desconto": 46,
+   "youtube": "https://youtube.com/shorts/m4ZL_PwHh6g",
+   "em": 1795653023191
+  },
   {
    "numero": 57,
    "titulo": "Relógio Smartwatch Redmi Watch 5 Active Lite Xiaomi Preto Prateado",
@@ -508,19 +521,6 @@
    "desconto": 58,
    "youtube": "https://youtube.com/shorts/ohynywlGhiY",
    "em": 1794490248250
-  },
-  {
-   "numero": 18,
-   "titulo": "Adaptador Hub USB-C 8 em 1 CONTATY Cabo Adaptador Multiportas tipo C com HDMI 4k, RJ45 ethernet e leitor de cartão para Macbook Pc Notebook tablet ipad e celular",
-   "loja": "mercadolivre",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_624764-MLA97655574214_112025-F.jpg",
-   "link": "https://meli.la/188nRFF",
-   "preco": 36.8,
-   "aPartirDe": false,
-   "precoAntes": 69.9,
-   "desconto": 47,
-   "youtube": "https://youtube.com/shorts/KynRA1bXlx0",
-   "em": 1794436231937
   }
  ]
 }

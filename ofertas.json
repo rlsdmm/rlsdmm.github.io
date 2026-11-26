@@ -1,7 +1,20 @@
 {
- "atualizadoEm": 1795653023677,
+ "atualizadoEm": 1795710649237,
  "grupo": "https://chat.whatsapp.com/Bn8Uh59Grik5MwvQ0dSTJq",
  "ofertas": [
+  {
+   "numero": 59,
+   "titulo": "Cama Elástica Infantil Pula Pula 1,8m Trampolim Com Zíper",
+   "loja": "mercadolivre",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_699174-MLA109470402079_032026-F.jpg",
+   "link": "https://meli.la/12tduby",
+   "preco": 375.84,
+   "aPartirDe": false,
+   "precoAntes": 799,
+   "desconto": 52,
+   "youtube": "https://youtube.com/shorts/42rqtG55Co4",
+   "em": 1795710648720
+  },
   {
    "numero": 58,
    "titulo": "iPhone 16e (128 GB) - Preto - Distribuidor Autorizado",
@@ -508,19 +521,6 @@
    "desconto": null,
    "youtube": "https://youtube.com/shorts/64L8TbqZ8Gk",
    "em": 1794501045680
-  },
-  {
-   "numero": 19,
-   "titulo": "Jaqueta Masculina Puffer Corta Vento Bobojaco Blusa De Frio Preto G",
-   "loja": "mercadolivre",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_641434-MLB110943962716_052026-F.jpg",
-   "link": "https://meli.la/2TM4HBy",
-   "preco": 53.99,
-   "aPartirDe": false,
-   "precoAntes": 129.9,
-   "desconto": 58,
-   "youtube": "https://youtube.com/shorts/ohynywlGhiY",
-   "em": 1794490248250
   }
  ]
 }

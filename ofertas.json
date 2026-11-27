@@ -1,7 +1,20 @@
 {
- "atualizadoEm": 1795807840307,
+ "atualizadoEm": 1795818637379,
  "grupo": "https://chat.whatsapp.com/Bn8Uh59Grik5MwvQ0dSTJq",
  "ofertas": [
+  {
+   "numero": 64,
+   "titulo": "Kit 100 Forma de airfryer descartavel antiaderente de papel cozinha quadrado fritadeira cozimento",
+   "loja": "shopee",
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820l5-mvhiu678rkea1f",
+   "link": "https://s.shopee.com.br/9KjwZkYHX7",
+   "preco": 16.98,
+   "aPartirDe": true,
+   "precoAntes": null,
+   "desconto": null,
+   "youtube": "https://youtube.com/shorts/eFX8SmGhWaI",
+   "em": 1795818636968
+  },
   {
    "numero": 63,
    "titulo": "Cafeteira Italiana Moka 12 Xícaras 600ml em Inox para Café Tipo Expresso",
@@ -508,19 +521,6 @@
    "desconto": null,
    "youtube": "https://youtube.com/shorts/oHBp5ZbzpPw",
    "em": 1794663036161
-  },
-  {
-   "numero": 24,
-   "titulo": "40 Peças / 46 Peças Jogo De Chave Catraca Caixa De Ferramentas para Reparo de Carros / Conjuntos de Chaves",
-   "loja": "shopee",
-   "imagem": "https://cf.shopee.com.br/file/br-11134207-820m3-muzr096xw3r47e",
-   "link": "https://s.shopee.com.br/AUvXlhBbvj",
-   "preco": 27.99,
-   "aPartirDe": true,
-   "precoAntes": null,
-   "desconto": 59,
-   "youtube": "https://youtube.com/shorts/2waCvrrupj0",
-   "em": 1794609017238
   }
  ]
 }

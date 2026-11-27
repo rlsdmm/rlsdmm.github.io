@@ -1,7 +1,20 @@
 {
- "atualizadoEm": 1795739447328,
+ "atualizadoEm": 1795797031733,
  "grupo": "https://chat.whatsapp.com/Bn8Uh59Grik5MwvQ0dSTJq",
  "ofertas": [
+  {
+   "numero": 62,
+   "titulo": "Borrifador Spray de Azeite 220ml em Vidro Óleo Vinagre Shoyu Pulverizador Air Fryer Cozinha Moderna",
+   "loja": "shopee",
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-820l7-muf11hlp6c5eb6",
+   "link": "https://s.shopee.com.br/1qdvuTnuPU",
+   "preco": 12.9,
+   "aPartirDe": true,
+   "precoAntes": null,
+   "desconto": null,
+   "youtube": "https://youtube.com/shorts/C00tlxE-Nbw",
+   "em": 1795797031273
+  },
   {
    "numero": 61,
    "titulo": "Fritadeira Air Fryer 5,5l Widemax Com Interior De Alumínio 1900w Midea",
@@ -508,19 +521,6 @@
    "desconto": 59,
    "youtube": "https://youtube.com/shorts/PjHDGSszv-w",
    "em": 1794587440416
-  },
-  {
-   "numero": 22,
-   "titulo": "Liquidificador Philco 1200W 3L 12 Velocidades Preto PH900",
-   "loja": "mercadolivre",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_766837-MLA98259429221_112025-F.jpg",
-   "link": "https://meli.la/1Gjaewe",
-   "preco": 99.9,
-   "aPartirDe": false,
-   "precoAntes": null,
-   "desconto": null,
-   "youtube": "https://youtube.com/shorts/x8QMb_-KntA",
-   "em": 1794576632336
   }
  ]
 }

@@ -1,7 +1,20 @@
 {
- "atualizadoEm": 1795732254494,
+ "atualizadoEm": 1795739447328,
  "grupo": "https://chat.whatsapp.com/Bn8Uh59Grik5MwvQ0dSTJq",
  "ofertas": [
+  {
+   "numero": 61,
+   "titulo": "Fritadeira Air Fryer 5,5l Widemax Com Interior De Alumínio 1900w Midea",
+   "loja": "mercadolivre",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_916338-MLA100014649407_122025-F.jpg",
+   "link": "https://meli.la/2b4kLgc",
+   "preco": 237.91,
+   "aPartirDe": false,
+   "precoAntes": null,
+   "desconto": null,
+   "youtube": "https://youtube.com/shorts/BetsNTQRY6k",
+   "em": 1795739446864
+  },
   {
    "numero": 60,
    "titulo": "Liquidificador RI2244 Série 5000 Com Jarra Inquebrável Inox 1400W Capacidade Útil 2L Philips Walita",
@@ -508,19 +521,6 @@
    "desconto": null,
    "youtube": "https://youtube.com/shorts/x8QMb_-KntA",
    "em": 1794576632336
-  },
-  {
-   "numero": 21,
-   "titulo": "Kit facas de cozinha/Churrasco Profissional Antiaderente 6 Peças Preto/colorido",
-   "loja": "shopee",
-   "imagem": "https://cf.shopee.com.br/file/sg-11134201-7rd4r-lu5esjrs5ib9b0",
-   "link": "https://s.shopee.com.br/40i2hMihsf",
-   "preco": 18.98,
-   "aPartirDe": true,
-   "precoAntes": null,
-   "desconto": null,
-   "youtube": "https://youtube.com/shorts/BP-fSZAsMYc",
-   "em": 1794522619370
   }
  ]
 }

@@ -1,7 +1,20 @@
 {
- "atualizadoEm": 1795818637379,
+ "atualizadoEm": 1795825835065,
  "grupo": "https://chat.whatsapp.com/Bn8Uh59Grik5MwvQ0dSTJq",
  "ofertas": [
+  {
+   "numero": 65,
+   "titulo": "Air Pro 4 Tws Fone De Ouvido Sem Fio Bluetooth 5.1Mini Fones Esportivos Para Android / Ios iphone",
+   "loja": "shopee",
+   "imagem": "https://cf.shopee.com.br/file/br-11134207-7r98o-lwghsqx5css501",
+   "link": "https://s.shopee.com.br/4fy71BPen2",
+   "preco": 19.99,
+   "aPartirDe": false,
+   "precoAntes": null,
+   "desconto": null,
+   "youtube": "https://youtube.com/shorts/rCrl9j67IJk",
+   "em": 1795825834450
+  },
   {
    "numero": 64,
    "titulo": "Kit 100 Forma de airfryer descartavel antiaderente de papel cozinha quadrado fritadeira cozimento",
@@ -508,19 +521,6 @@
    "desconto": null,
    "youtube": "https://youtube.com/shorts/F6ZPJzbbWvc",
    "em": 1794673841409
-  },
-  {
-   "numero": 25,
-   "titulo": "Carregador Turbo 200w Para Xiaomi Poco Usb-c Usb-a Rápido Branco",
-   "loja": "mercadolivre",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_740361-MLB115756794350_092026-F.jpg",
-   "link": "https://meli.la/128qtxz",
-   "preco": 36.5,
-   "aPartirDe": false,
-   "precoAntes": null,
-   "desconto": null,
-   "youtube": "https://youtube.com/shorts/oHBp5ZbzpPw",
-   "em": 1794663036161
   }
  ]
 }

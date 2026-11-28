@@ -1,7 +1,20 @@
 {
- "atualizadoEm": 1795883431127,
+ "atualizadoEm": 1795894225419,
  "grupo": "https://chat.whatsapp.com/Bn8Uh59Grik5MwvQ0dSTJq",
  "ofertas": [
+  {
+   "numero": 67,
+   "titulo": "Kit 100 Bolas Natal + Estrela ou Kit 50 Enfeite Árvore Natalina Mista Vermelha Dourada Glitter Lisa",
+   "loja": "shopee",
+   "imagem": "https://cf.shopee.com.br/file/sg-11134201-825ar-muvbeex50h6o62",
+   "link": "https://s.shopee.com.br/1qdvdxfFNt",
+   "preco": 64.9,
+   "aPartirDe": true,
+   "precoAntes": null,
+   "desconto": 57,
+   "youtube": "https://youtube.com/shorts/Y0U3sleaN8c",
+   "em": 1795894224972
+  },
   {
    "numero": 66,
    "titulo": "Panela de Pressão Elétrica 1100W Eletrozon Elt-808 de 6 Litros com Revestimento Antiaderente e Desligamento Automático",
@@ -508,19 +521,6 @@
    "desconto": null,
    "youtube": "https://youtube.com/shorts/EPEmTJCiBUk",
    "em": 1794760227974
-  },
-  {
-   "numero": 27,
-   "titulo": "Kit Starlink Mini X – Internet via Satélite com Antena Mini e Roteador Wi-Fi 6",
-   "loja": "mercadolivre",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_906463-MLA118742749100_102026-F.jpg",
-   "link": "https://meli.la/1J8qXki",
-   "preco": 404.04,
-   "aPartirDe": false,
-   "precoAntes": 699,
-   "desconto": 42,
-   "youtube": "https://youtube.com/shorts/GARnqvxC_LE",
-   "em": 1794749426207
   }
  ]
 }

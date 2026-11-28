@@ -1,7 +1,20 @@
 {
- "atualizadoEm": 1795825835065,
+ "atualizadoEm": 1795883431127,
  "grupo": "https://chat.whatsapp.com/Bn8Uh59Grik5MwvQ0dSTJq",
  "ofertas": [
+  {
+   "numero": 66,
+   "titulo": "Panela de Pressão Elétrica 1100W Eletrozon Elt-808 de 6 Litros com Revestimento Antiaderente e Desligamento Automático",
+   "loja": "mercadolivre",
+   "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_961703-MLA99981074461_112025-F.jpg",
+   "link": "https://meli.la/2Q6S9wf",
+   "preco": 259.9,
+   "aPartirDe": false,
+   "precoAntes": 599.9,
+   "desconto": 56,
+   "youtube": "https://youtube.com/shorts/WvcF8mY9X_U",
+   "em": 1795883430646
+  },
   {
    "numero": 65,
    "titulo": "Air Pro 4 Tws Fone De Ouvido Sem Fio Bluetooth 5.1Mini Fones Esportivos Para Android / Ios iphone",
@@ -508,19 +521,6 @@
    "desconto": 42,
    "youtube": "https://youtube.com/shorts/GARnqvxC_LE",
    "em": 1794749426207
-  },
-  {
-   "numero": 26,
-   "titulo": "Kit Hidrabene Linha Clareadora Sabonete Serum E Protetor 70",
-   "loja": "mercadolivre",
-   "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_874695-MLB117658328489_092026-F.jpg",
-   "link": "https://meli.la/2WEVpWG",
-   "preco": 59.26,
-   "aPartirDe": false,
-   "precoAntes": null,
-   "desconto": null,
-   "youtube": "https://youtube.com/shorts/F6ZPJzbbWvc",
-   "em": 1794673841409
   }
  ]
 }
